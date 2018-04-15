@@ -1,4 +1,4 @@
-# C-plus-Datastructure
+# Practice 1 -airport
 #### Problem: 
 #### The program named as airport.cpp that uses a structure to store the following information for a particular month at the local airport:  
 ####  •	Total number of planes that landed 
