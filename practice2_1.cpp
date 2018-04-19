@@ -1,3 +1,11 @@
+/****************************************************
+Two arrays list1 and list2 are strictly identical if they have the same 
+length and list1[i] is equal to list2[i] for each i. 
+
+The test program that prompts the user to enter two lists of integers
+and displays whether the two are strictly identical. 
+Assume the list size is a maximum of 10.
+****************************************************/
 #include <iostream>
 #include <sstream>
 using namespace std;
