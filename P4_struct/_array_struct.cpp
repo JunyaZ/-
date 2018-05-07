@@ -7,7 +7,7 @@ using namespace std;
 // Junya Zhao
 
 // Fill in code to declare a structure called taxPayer that has three
-// members:	taxRate, income, and taxes — each of type float
+// members:	taxRate, income, and taxes â€” each of type float
 struct taxPayer
 {
     float taxaRate;
