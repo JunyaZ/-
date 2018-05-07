@@ -1,5 +1,5 @@
 // This program reads in from the keyboard a record of financial information
-// consisting of a person’s name, income, rent, food costs, utilities and
+// consisting of a personâ€™s name, income, rent, food costs, utilities and
 // miscellaneous expenses. It then determines the net money
 // (income minus all expenses)and places that information in a record
 // which is then written to an output file.
