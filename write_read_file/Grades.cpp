@@ -5,7 +5,7 @@
 using namespace std;
 
 // This program reads records from a file. The file contains the
-// following: student’s name, two test grades and final exam grade.
+// following: studentâ€™s name, two test grades and final exam grade.
 // It then prints this information to the screen.
 
 // Junya  Zhao
