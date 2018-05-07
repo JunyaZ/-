@@ -20,7 +20,7 @@ int main()
         cout << "The real position is currently at byte: " << whereIm <<endl;
 		cout << "Enter an offset from the current read position: ";
 		cin >> offset;
-        //	Fill in the code to move the read position ìoffsetî bytes
+        //	Fill in the code to move the read position ‚Äúoffset‚Äù bytes
 		//	from the CURRENT read position.
         inFile.seekg(offset-1, ios::cur);
         //	Fill in the code to get one byte of information from the file
