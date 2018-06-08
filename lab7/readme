@@ -1,7 +1,4 @@
-MSU CSC 232
-Spring 2018
-Lab 7, Mar. 21-22, 2018
-Due: Wed. Mar. 28
+
 
 This lab implements classes that may be used to simulate the operation of an elevator in a building as people request to move between floors. The classes use randomized numbers to determine the times that people arrive, which floor they want to go to, etc. 
 
