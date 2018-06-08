@@ -1,0 +1,37 @@
+MSU CSC 232
+Spring 2018
+Lab 7, Mar. 21-22, 2018
+Due: Wed. Mar. 28
+
+This lab implements classes that may be used to simulate the operation of an elevator in a building as people request to move between floors. The classes use randomized numbers to determine the times that people arrive, which floor they want to go to, etc. 
+
+In this lab you will write two classes and a main program that demonstrates the use of the classes. This lab does NOT include the complete simulation of the elevator.
+
+The building has ten floors, numbered 0..9. Each person will arrive at the building lobby, which is floor 0. The person will have a definite floor that she wishes to visit for a definite amount of time. 
+
+1.	Using documentation such as your textbook Ch. 3.9 and www.cplusplus.com, review C++ pseudo-random number functions, especially the seed function.
+
+2.	Write a function named timeVisiting that
+¡ñ	accepts two integer parameters, a and b. The range of a and b are 0 <= a,b <= INT_MAX.
+¡ñ	returns a random integer uniformly distributed between a and b inclusive.
+¡ñ	(You will need to scale and shift the value returned by rand().)
+
+3.	Write a class named Person 
+¡ñ	The class contains data members for
+o	time of arrival at the building  float timeArrival;
+o	destination floor that the person will visit, uniformly distributed in the range 0..9 
+int floor;
+
+o	time that the person will spend at the destination floor, uniformly distributed in a sensible range float stayTime;
+o	time the person arrives back at the lobby to leave the building  float leaveTime;
+
+4.	Write a class named ElevatorQueue that contains an array of 1000 objects of type Person.
+¡ñ	write a copy constructor for this class
+
+5.	Write a program named ElevatorSim.cpp 
+¡ñ	initialize to sensible values the data members of each Person object in the array.
+¡ñ	The separation between each person arriving at the building should be reasonable so that approximately 1000 people will arrive at the building in a business day.
+¡ñ	Demonstrate the use of the copy constructor for the ElevatorQueue class.
+o	A fair and correct demonstration of the copy constructor is to create two objects, initialize one, copy it to the second, change a value in the first, and show that the value did NOT change in the second. This will demonstrate that the two objects are separate from each other.
+
+Turn in your program ElevatorSim.cpp as usual to trace and BlackBoard.
