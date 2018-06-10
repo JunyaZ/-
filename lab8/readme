@@ -1,0 +1,41 @@
+CSC 232 Lab 8 Spring 2018, due date: next week.
+In this lab, you are required to develop c++ class that models Fraction object which has two int data members named myNumerator and myDenominator.
+Given this definition of a new type Fraction, we can make declarations like the following:
+     Fraction frac1, frac2, frac3; 
+
+These declarations define three Fraction objects with the following forms:
+
+frac1
+myNumerator
+myDenominator
+
+frac2
+myNumerator
+myDenominator
+
+frac3
+myNumerator
+myDenominator
+
+Checking point 1: three constructors are required. Default constructor to set up a Fraction object as 0/1. Constructor with two ints as argument to set up the numerator and denominator. Copy constructor with another Fraction object as an argument to copy the argument fraction object.
+So you can define Fraction f; Fraction f(2,3); Fraction f(f1); in your test program.
+Checking point 2: getter and setter functions for myNumerator and myDenominator.
+Checking point 3: define a toString function member for your Fraction class. so that when f is a Fraction whose numerator is 3 and whose denominator is 4, then a message:
+   cout<< f.toString();
+will display
+   3/4
+checking point 4:
+	Add an overloaded  ==, and != operators to the class
+
+Checking point 5:
+              Add an overloaded +, -,* to the class
+Checking point 6: implement the simplify member function: if class Fraction had a simplify() operation so that fractions like: 2/6, 6/12, 12/4 could be simplified to 1/3, 1/2, and 3/1, respectively.
+Such an operation is useful to keep fractional results as simple and easy to read as possible. To provide this capability, we will implement a Fraction function member named simplify(). In a function member like operator*, -, +which constructs its answer in a Fraction named result, we can simplify this answer by calling simplify() as follows:
+   result.simplify();
+1.	Find gcd, the greatest common divisor of myNumerator and myDenominator.
+2.	Replace myNumerator by myNumerator/gcd.
+3.	Replace myDenominator by myDenominator/gcd.
+Checking point7:	Add overloaded >> and << operators to the class. Make them friend functions.
+Make sure to write a complete test program to cover exercising each function in the class to show its correct implementation. For example, you might include Fraction.h, Fraction.cpp and FractionTest.cpp three files in your folder.
+
+
