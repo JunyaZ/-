@@ -1,0 +1,26 @@
+
+
+In this lab you are to write a program to find all words used in a text. This program will keep asking the user to type a text string. For example, if the user inputs the following text:
+
+”Have a good day. Have a good class. “+”Have a good visit. Have fun!”
+
+You will do this program two different ways:
+1)	You will use a Set to contain the tokens obtained from the input text string, iterate over the contents of the Set and output the results.
+2)	You will use a UnorderedSet to contain the tokens obtained from the input text string, iterate over the contents of the UnorderedSet and output the results.
+
+For example, the set of tokens of the above text string will be set<string> tokens={‘ “ ‘, “. “, “+”, “!” }
+ Or might be unorderedset contains the tokens. 
+
+Next you will write a program that counts the occurrences of words in a text (use the same text as before) and displays the words and their occurrences in ascending order of words. The program will use a Map to store a pair consisting of a word and its count. For each word, check whether it is already a key in the map. If not, add the key and value 1 to the map. Otherwise, increase the value for the word (key) by 1 in the map.  Iterate over the Map to output the data in ascending order.
+
+For example, the map of the above text string might look like the following:
+have 4
+a       3
+good 3
+day   1
+class 1
+visit  1
+fun    1
+
+
+your program can run multiple times, give the user to input a text string or quit the program.
