@@ -1,5 +1,5 @@
 
-In this lab, design your own linked list class to hold a series of integers. The class should have member functions for appending, inserting and deleting nodes. Don’t forget to add a destructor that destroys the list. 
+In this lab, design linked list class to hold a series of integers. The class should have member functions for appending, inserting and deleting nodes. Don’t forget to add a destructor that destroys the list. 
 1.	Add a print member function which should display all the values in the linked list. 
 2.	Add a copy constructor
 3.	Add a member function named reverse that rearranges the nodes in the list so their order is reversed. 
